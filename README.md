@@ -1,3 +1,31 @@
+It is an NTF market place portfolio developed by Ahtesham Akram.
+It uses react router, bootstrap, react strap, remix icon and much more. 
+It is reponsive and fancy site where you can playaround with the following:
+
+1) When you open the site, you'll land on landing page which is Home page. On home page, you'll see live auction. 
+2) There you can place your bid. A panel will open where you can place your bid by clicking on place bid.
+3) On the panel, you can enter the amout of bid you want.
+4) After Home page, you can also check Market place, just by clicking on market button on navbar. Here, you can filter items by rate.
+5) Moreover, you can also click on the seller's name to know about him.
+6) To create your own NFT, you can click on create on navbar.
+7) There you'll find a form to place your own bid.
+
+
+HOW TO INSTALL THE APP ON YOUR LOCAL MACHINE:
+1) Create a folder where you want the repo.
+2) Now, copy the url of the repo by clicking on the green code button.
+3) Open the terminal in the root folder.
+4) Here you have run the following command:
+    npm init
+    git clone "here paste the url without qoutes"
+    npm cd NFT-landing-page-React-JS
+    npm i
+    npm run start
+
+5) Here you go Enjoy the site.
+
+Hope you like the site and have fun.. :)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
