@@ -10,6 +10,10 @@ It is reponsive and fancy site where you can playaround with the following:
 6) To create your own NFT, you can click on create on navbar.
 7) There you'll find a form to place your own bid.
 
+HOSTING:- 
+https://devahtesham.github.io/NFT-landing-page-React-JS/
+
+
 
 HOW TO INSTALL THE APP ON YOUR LOCAL MACHINE:
 1) Create a folder where you want the repo.
