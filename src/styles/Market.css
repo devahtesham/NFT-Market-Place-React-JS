@@ -12,3 +12,13 @@
         font-size: 0.9rem;
     }
 }
+@media only screen and (max-width:414px){
+    .all__category__filter select, .all__items__filter select, .filter__right select{
+        padding: 8px 25px;
+        font-size: 0.9rem;
+    }
+    .market__product__filter{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}

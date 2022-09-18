@@ -30,6 +30,14 @@
   font-size: 0.9rem;
   background: transparent;
   color: #fff !important;
+  transition-duration: 0.7s;
+  box-shadow: 0 0 5px 0 #e250e5;
+}
+.hero__btns .explore__btn:hover,
+.hero__btns .create__btn:hover {
+  background-color: #5142fc;
+  transform: translateY(-40%);
+  box-shadow: none;
 }
 .explore__btn a,
 .create__btn a {
@@ -45,11 +53,38 @@
 .hero__img {
   width: 500px;
   margin-left: auto;
+  clip-path: polygon(
+    13% 0%,
+    100% 0,
+    100% 20%,
+    100% 80%,
+    87% 100%,
+    20% 100%,
+    0 100%,
+    0% 20%
+  );
+  transition-duration: 0.8s;
+}
+.hero__img:hover {
+  clip-path: polygon(
+    0 0,
+    85% 0%,
+    100% 20%,
+    100% 80%,
+    100% 100%,
+    15% 100%,
+    0% 80%,
+    0% 20%
+  );
 }
 .hero__img img {
   border-radius: 7px;
 }
-
+@media only screen and (max-width:1024px){
+  .hero__img {
+    width: 455px;
+}
+}
 @media only screen and (max-width: 992px) {
   /* =============== hero section ===== */
   .hero__img {
@@ -82,4 +117,9 @@
     margin: auto;
     margin-top: 50px;
   }
+}
+@media only screen and (max-width: 414px){
+  .hero__content h2 {
+    line-height: 33px;
+}
 }

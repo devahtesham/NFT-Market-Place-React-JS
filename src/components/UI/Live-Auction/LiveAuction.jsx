@@ -8,10 +8,14 @@ import { NFT__DATA } from "../../../data/data";
 
 const LiveAuction = () => {
   return (
-    <section>
+    <section className="live__auction">
       <div className="container">
-        <div className="row">
-          <div className="col-12 mb-5">
+        <div className="row justify-content-center">
+          <div
+            className="col-12 mb-5"
+            data-aos="fade-down"
+            data-aos-duration="1000"
+          >
             <div className="live__auction__top d-flex align-items-center justify-content-between">
               <h3>Live Auction</h3>
               <span>
@@ -21,8 +25,13 @@ const LiveAuction = () => {
           </div>
 
           {NFT__DATA.slice(0, 4).map((item) => (
-            <div className="col-lg-3 col-md-4 col-sm-6" key={item.id}>
-              <NftCard  item={item} />
+            <div
+              className="col-xl-3 col-lg-4 col-md-4 col-sm-6 mb-3"
+              key={item.id}
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
+              <NftCard item={item} />
             </div>
           ))}
         </div>

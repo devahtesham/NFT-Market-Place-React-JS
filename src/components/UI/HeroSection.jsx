@@ -8,7 +8,11 @@ const HeroSection = () => {
     <section className="hero__section">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6 col-md-6">
+          <div
+            className="col-lg-6 col-md-6"
+            data-aos="fade-up-right"
+            data-aos-duration="1000"
+          >
             <div className="hero__content">
               <h2>
                 Discover rare digital art and collect{" "}
@@ -31,7 +35,11 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 col-md-6">
+          <div
+            className="col-lg-6 col-md-6"
+            data-aos="fade-up-left"
+            data-aos-duration="1000"
+          >
             <div className="hero__img">
               <img src={heroImg} className="w-100" />
             </div>

@@ -98,6 +98,7 @@
 body {
   background: var(--bg-clr) !important;
   font-family: "Roboto", sans-serif !important;
+  overflow-x: hidden !important;
 }
 h1,
 h2 {
@@ -110,7 +111,7 @@ p {
   font-weight: 400;
   color: #fff;
   opacity: 85%;
-  line-height: 35px;
+  line-height: 22px;
 }
 a {
   text-decoration: none !important;
@@ -118,6 +119,9 @@ a {
 }
 a:hover {
   color: unset;
+}
+section{
+  overflow-x: hidden !important;
 }
 ul {
   list-style: none;
@@ -131,7 +135,9 @@ section,
 footer {
   padding: 60px 0;
 }
-button,.btn,select{
+button,
+.btn,
+select {
   border: none;
   outline: none;
 }

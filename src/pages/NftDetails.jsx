@@ -13,18 +13,30 @@ const NftDetails = () => {
   // console.log(singleNft);
   return (
     <>
-      <CommonSection title={singleNft.title} />
+      <CommonSection
+        title={singleNft.title}
+        move="fade-up-right"
+        duration="1000"
+      />
       <section>
         <div className="container">
-          <div className="row">
-            <div className="col-lg-6 col-md-6 col-sm-6">
+          <div className="row align-items-center">
+            <div
+              className="col-lg-6 col-md-6 col-sm-6"
+              data-aos="fade-up-right"
+              data-aos-duration="1000"
+            >
               <img
                 src={singleNft.imgUrl}
                 alt="nft-img"
                 className="single__nft__img"
               />
             </div>
-            <div className="col-lg-6 col-md-6 col-sm-6">
+            <div
+              className="col-lg-6 col-md-6 col-sm-6"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
               <div className="single__nft__content">
                 <h2>{singleNft.title}</h2>
                 <div className="d-flex justify-content-between align-items-center my-4">

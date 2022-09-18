@@ -50,6 +50,7 @@
   padding: 7px 25px;
   border: 1px solid var(--clr-2) !important;
   border-radius: 50px !important;
+  box-shadow: 0 0 5px 0 #e250e5;
 }
 .nav__right .btn a {
   color: #fff;
@@ -66,6 +67,11 @@
   color: #fff;
   font-size: 1.3rem;
   display: none;
+}
+@media only screen and (max-width:820px){
+  .nav__list a{
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 768px) {

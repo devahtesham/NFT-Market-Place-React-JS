@@ -50,14 +50,16 @@ const Header = () => {
     <header className="header" ref={headerRef}>
       <div className="container">
         <div className="navigation">
-          <div className="logo">
-            <h2 className="d-flex gap-2 align-items-center mb-0 ">
-              <span>
-                <i class="ri-fire-fill"></i>
-              </span>
-              NFT
-            </h2>
-          </div>
+          <Link to="/home">
+            <div className="logo">
+              <h2 className="d-flex gap-2 align-items-center mb-0 ">
+                <span>
+                  <i class="ri-fire-fill"></i>
+                </span>
+                NFT
+              </h2>
+            </div>
+          </Link>
           <div className="nav__menu" ref={menuRef} onClick={toggleMenu}>
             <ul className="nav__list mb-0">
               {NAV__LINKS.map((v, i) => (

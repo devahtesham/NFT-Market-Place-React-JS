@@ -16,15 +16,23 @@ const item = {
 const Create = () => {
   return (
     <>
-      <CommonSection title="Create Item" />
+      <CommonSection title="Create Item" move="fade-up-right" duration="1500" />
       <section>
         <div className="container">
           <div className="row">
-            <div className="col-lg-3 col-md-4 col-sm-6">
+            <div
+              className="col-xl-3 col-lg-4 col-md-4 col-sm-6"
+              data-aos="fade-up-right"
+              data-aos-duration="1000"
+            >
               <h5 className="mb-4 text-white">Preview Item</h5>
               <NftCard item={item} />
             </div>
-            <div className="col-lg-9 col-md-8 col-sm-6">
+            <div
+              className="col-xl-9 col-lg-8 col-md-8 col-sm-6"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
               <div className="create__item">
                 <form>
                   <div className="form__input">
@@ -68,6 +76,7 @@ const Create = () => {
                       id=""
                       rows="7"
                       className="w-100"
+                      placeholder="Describe Your NFT ..."
                     ></textarea>
                   </div>
                 </form>
